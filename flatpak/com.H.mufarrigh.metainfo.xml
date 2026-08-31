@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.H.mufarrigh</id>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+
+  <name>مُفرِّغ — Mufarrigh</name>
+  <name xml:lang="ar">مُفرِّغ</name>
+  <name xml:lang="en">Mufarrigh</name>
+
+  <summary>Sprite sheet extractor powered by pure-Dart classical CV</summary>
+  <summary xml:lang="ar">أداة استخراج عناصر صفحات الرسوم المتحركة — بدون اتصال بالإنترنت</summary>
+
+  <description>
+    <p>
+      Mufarrigh (مُفرِّغ) is a desktop sprite-sheet extractor.
+      It automatically detects and separates individual sprites from a packed sheet,
+      removes backgrounds, and exports each element as a transparent PNG —
+      all fully offline using a pure-Dart classical computer-vision pipeline.
+    </p>
+    <p xml:lang="ar">
+      مُفرِّغ هو تطبيق سطح مكتب لاستخراج العناصر من صفحات الرسوم المتحركة (Sprite Sheets).
+      يكشف العناصر تلقائياً، يحذف الخلفية، ويُصدِّر كل عنصر كصورة PNG شفافة —
+      بدون أي اتصال بالإنترنت، باستخدام خوارزميات معالجة الصور الكلاسيكية.
+    </p>
+    <p>Key features:</p>
+    <ul>
+      <li>Background removal with BFS flood-fill and configurable tolerance</li>
+      <li>Connected-component labelling (Union-Find CCL) for element detection</li>
+      <li>Edge feathering to preserve anti-aliasing without halos</li>
+      <li>Optional erosion to separate touching sprites</li>
+      <li>Export to PNG with custom subfolder naming</li>
+      <li>Adaptive 3-pane desktop layout and tabbed mobile layout</li>
+      <li>Arabic (RTL) and English interface</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">com.H.mufarrigh.desktop</launchable>
+
+  <provides>
+    <binary>mufarrigh</binary>
+  </provides>
+
+  <categories>
+    <category>Graphics</category>
+    <category>2DGraphics</category>
+    <category>Utility</category>
+  </categories>
+
+  <keywords>
+    <keyword>sprite</keyword>
+    <keyword>sprite sheet</keyword>
+    <keyword>game art</keyword>
+    <keyword>image processing</keyword>
+    <keyword>background removal</keyword>
+    <keyword>مفرغ</keyword>
+    <keyword>استخراج رسوم</keyword>
+  </keywords>
+
+  <content_rating type="oars-1.1" />
+
+  <releases>
+    <release version="1.0.0" date="2026-08-17">
+      <description>
+        <p>Initial release of Mufarrigh.</p>
+      </description>
+    </release>
+  </releases>
+</component>

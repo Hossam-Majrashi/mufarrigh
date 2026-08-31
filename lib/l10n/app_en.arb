@@ -1,0 +1,149 @@
+{
+  "@@locale": "en",
+  "appName": "Mufarrigh",
+  "appSubtitle": "Sprite Sheet Extractor",
+
+  "home": "Home",
+  "recentProjects": "Recent Projects",
+  "noRecentProjects": "No recent projects yet.\nImport a sprite sheet to get started.",
+  "newSpriteSheet": "New Sprite Sheet",
+  "dropImageHere": "Drop image here",
+  "orBrowse": "or browse files",
+  "importImage": "Import Image",
+  "openRecentProject": "Open recent project",
+  "clearHistory": "Clear History",
+
+  "workspace": "Workspace",
+  "originalSheet": "Original Sheet",
+  "detectedElements": "Detected Elements",
+  "properties": "Properties",
+
+  "processing": "Processing…",
+  "stepRemovingBackground": "Removing background…",
+  "stepDetectingElements": "Detecting elements…",
+  "stepExtractingCrops": "Extracting crops…",
+  "stepFeathering": "Feathering edges…",
+  "stepDone": "Done",
+
+  "elementsFound": "{count, plural, =0{No elements detected} =1{1 element found} other{{count} elements found}}",
+  "@elementsFound": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "noElementsFound": "No elements detected.\nTry adjusting detection sensitivity in Settings.",
+
+  "element": "Element",
+  "elementLabel": "Element {number}",
+  "@elementLabel": {
+    "placeholders": {
+      "number": { "type": "String" }
+    }
+  },
+  "deleteElement": "Delete",
+  "mergeElements": "Merge with…",
+  "splitElement": "Split",
+  "renameElement": "Rename",
+  "rename": "Rename",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "delete": "Delete",
+  "done": "Done",
+  "close": "Close",
+  "save": "Save",
+
+  "background": "Background",
+  "transparent": "Transparent",
+  "customColor": "Custom Color",
+  "globalBackground": "Global Background",
+  "perElementOverride": "Per-Element Override",
+  "useGlobal": "Use global",
+  "clearOverride": "Clear override",
+
+  "export": "Export",
+  "exportAll": "Export All",
+  "exportSelected": "Export Selected ({count})",
+  "@exportSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "chooseFolder": "Choose Folder",
+  "exportFolder": "Export Folder",
+  "namingScheme": "Naming Scheme",
+  "namingSequential": "Sequential (element_001)",
+  "namingPosition": "Position-based (row1_col3)",
+  "namingCustom": "Custom names",
+  "exportSuccess": "{count} files exported to {folder}",
+  "@exportSuccess": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "folder": { "type": "String" }
+    }
+  },
+  "exportError": "Export failed: {error}",
+  "@exportError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "openFolder": "Open Folder",
+
+  "settings": "Settings",
+  "detectionSensitivity": "Detection Sensitivity",
+  "detectionSensitivityHint": "Higher = more aggressive background removal",
+  "minimumElementSize": "Minimum Element Size",
+  "minimumElementSizeHint": "Smaller elements are treated as noise and ignored",
+  "gapErosion": "Gap Erosion",
+  "gapErosionHint": "Separates sprites that are touching or overlapping",
+  "edgeFeathering": "Edge Feathering",
+  "edgeFeatheringHint": "Smooths element edges to preserve anti-aliasing",
+  "elementPadding": "Element Padding",
+  "elementPaddingHint": "Extra pixels added around each element's bounding box",
+  "language": "Language",
+  "defaultBackground": "Default Background",
+  "defaultExportFolder": "Default Export Folder",
+  "browse": "Browse",
+  "resetDefaults": "Reset to Defaults",
+
+  "errorImageLoad": "Failed to load image: {error}",
+  "@errorImageLoad": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "errorProcessing": "Processing failed: {error}",
+  "@errorProcessing": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "retry": "Retry",
+  "retryDetection": "Retry Detection",
+  "openSettings": "Open Settings",
+  "detectionFailureTitle": "Could not detect separate elements",
+  "detectionFailureBody": "Couldn't detect separate elements in this sheet. Try adjusting detection sensitivity in Settings, or ensure the background is transparent or uniform in color.",
+
+  "confirmDeleteElement": "Delete this element?",
+  "confirmDeleteElementBody": "This action cannot be undone.",
+  "confirmClearHistory": "Clear all recent projects?",
+
+  "reprocess": "Re-process Sheet",
+  "selectAll": "Select All",
+  "deselectAll": "Deselect All",
+
+  "pixels": "px",
+  "percent": "%",
+  "boundingBox": "Bounding Box",
+  "width": "Width",
+  "height": "Height",
+  "position": "Position",
+  "size": "Size",
+
+  "developer": "Developer",
+  "developerName": "Hossam Hassan Majrashi",
+  "email": "Email",
+  "website": "Website",
+  "copiedToClipboard": "Copied to clipboard"
+}
+

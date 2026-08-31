@@ -1,0 +1,85 @@
+# Miscellaneous & OS
+*.class
+*.log
+*.pyc
+*.swp
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+.atom/
+.build/
+.buildlog/
+.history/
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Personal / CV notes
+CV_PROJECT_DESCRIPTION.txt
+CV_*.txt
+cv_*.txt
+*.cv.txt
+
+# Screenshots
+Screenshot/
+Screenshots/
+screenshot/
+screenshots/
+[sS]creenshot*/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Flutter / Dart / Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Packaging & Distribution Artifacts
+/dist/
+/flatpak/.flatpak-builder/
+/flatpak/build-dir/
+/flatpak/repo/
+flatpak/*.flatpak
+
+# Android specific
+.gradle/
+local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+captures/
+*.jks
+*.keystore
+key.properties
+
+# iOS / macOS specific
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/macos/Pods/
+**/macos/.symlinks/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Widget Preview
+.widget_preview/

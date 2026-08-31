@@ -1,0 +1,4 @@
+تشغيل ملف
+generate_icons.sh
+ملفات لينكس تكون build_linux.sh و flatpak_linux.sh  و يكون في مجلد flatpak داخل 1 metainfo.xml و json
+المخرجات build_linux.sh  في ملف dist

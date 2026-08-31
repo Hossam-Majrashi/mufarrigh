@@ -1,0 +1,149 @@
+{
+  "@@locale": "ar",
+  "appName": "مُفرِّغ",
+  "appSubtitle": "مستخرج صفحات السبرايت",
+
+  "home": "الرئيسية",
+  "recentProjects": "المشاريع الأخيرة",
+  "noRecentProjects": "لا توجد مشاريع حديثة.\nاستورد صفحة سبرايت للبدء.",
+  "newSpriteSheet": "صفحة سبرايت جديدة",
+  "dropImageHere": "أسقط الصورة هنا",
+  "orBrowse": "أو تصفح الملفات",
+  "importImage": "استيراد صورة",
+  "openRecentProject": "فتح مشروع حديث",
+  "clearHistory": "مسح السجل",
+
+  "workspace": "مساحة العمل",
+  "originalSheet": "الصفحة الأصلية",
+  "detectedElements": "العناصر المكتشفة",
+  "properties": "الخصائص",
+
+  "processing": "جارٍ المعالجة…",
+  "stepRemovingBackground": "إزالة الخلفية…",
+  "stepDetectingElements": "اكتشاف العناصر…",
+  "stepExtractingCrops": "استخراج المقاطع…",
+  "stepFeathering": "تنعيم الحواف…",
+  "stepDone": "اكتمل",
+
+  "elementsFound": "{count, plural, =0{لم يُكتشف أي عنصر} =1{عنصر واحد مكتشف} =2{عنصران مكتشفان} few{{count} عناصر مكتشفة} other{{count} عنصراً مكتشفاً}}",
+  "@elementsFound": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "noElementsFound": "لم يُكتشف أي عنصر.\nجرّب ضبط حساسية الاكتشاف في الإعدادات.",
+
+  "element": "عنصر",
+  "elementLabel": "عنصر {number}",
+  "@elementLabel": {
+    "placeholders": {
+      "number": { "type": "String" }
+    }
+  },
+  "deleteElement": "حذف",
+  "mergeElements": "دمج مع…",
+  "splitElement": "تقسيم",
+  "renameElement": "إعادة تسمية",
+  "rename": "إعادة تسمية",
+  "cancel": "إلغاء",
+  "confirm": "تأكيد",
+  "delete": "حذف",
+  "done": "تم",
+  "close": "إغلاق",
+  "save": "حفظ",
+
+  "background": "الخلفية",
+  "transparent": "شفاف",
+  "customColor": "لون مخصص",
+  "globalBackground": "الخلفية العامة",
+  "perElementOverride": "تخصيص لكل عنصر",
+  "useGlobal": "استخدام العام",
+  "clearOverride": "إزالة التخصيص",
+
+  "export": "تصدير",
+  "exportAll": "تصدير الكل",
+  "exportSelected": "تصدير المحدد ({count})",
+  "@exportSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "chooseFolder": "اختر مجلداً",
+  "exportFolder": "مجلد التصدير",
+  "namingScheme": "نظام التسمية",
+  "namingSequential": "تسلسلي (element_001)",
+  "namingPosition": "حسب الموضع (row1_col3)",
+  "namingCustom": "أسماء مخصصة",
+  "exportSuccess": "تم تصدير {count} ملفات إلى {folder}",
+  "@exportSuccess": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "folder": { "type": "String" }
+    }
+  },
+  "exportError": "فشل التصدير: {error}",
+  "@exportError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "openFolder": "فتح المجلد",
+
+  "settings": "الإعدادات",
+  "detectionSensitivity": "حساسية الاكتشاف",
+  "detectionSensitivityHint": "كلما زادت القيمة، كانت إزالة الخلفية أكثر عدوانية",
+  "minimumElementSize": "الحجم الأدنى للعنصر",
+  "minimumElementSizeHint": "العناصر الأصغر من هذا الحجم تُعامل كضجيج وتُهمل",
+  "gapErosion": "تآكل الفجوة",
+  "gapErosionHint": "يفصل العناصر المتلامسة أو المتداخلة",
+  "edgeFeathering": "تنعيم الحواف",
+  "edgeFeatheringHint": "يجعل حواف العناصر أكثر نعومة للحفاظ على تدرج الألوان",
+  "elementPadding": "الحشو",
+  "elementPaddingHint": "بكسلات إضافية تُضاف حول إطار كل عنصر",
+  "language": "اللغة",
+  "defaultBackground": "الخلفية الافتراضية",
+  "defaultExportFolder": "مجلد التصدير الافتراضي",
+  "browse": "تصفح",
+  "resetDefaults": "إعادة الإعدادات الافتراضية",
+
+  "errorImageLoad": "فشل تحميل الصورة: {error}",
+  "@errorImageLoad": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "errorProcessing": "فشلت المعالجة: {error}",
+  "@errorProcessing": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "retry": "إعادة المحاولة",
+  "retryDetection": "إعادة المحاولة",
+  "openSettings": "فتح الإعدادات",
+  "detectionFailureTitle": "تعذر اكتشاف عناصر منفصلة",
+  "detectionFailureBody": "تعذر اكتشاف عناصر منفصلة في هذه الورقة — جرّب تعديل حساسية الكشف أو تأكد أن الخلفية شفافة أو موحدة اللون.",
+
+  "confirmDeleteElement": "حذف هذا العنصر؟",
+  "confirmDeleteElementBody": "لا يمكن التراجع عن هذا الإجراء.",
+  "confirmClearHistory": "مسح كل المشاريع الأخيرة؟",
+
+  "reprocess": "إعادة معالجة الصفحة",
+  "selectAll": "تحديد الكل",
+  "deselectAll": "إلغاء تحديد الكل",
+
+  "pixels": "بكسل",
+  "percent": "%",
+  "boundingBox": "إطار الحدود",
+  "width": "العرض",
+  "height": "الارتفاع",
+  "position": "الموضع",
+  "size": "الحجم",
+
+  "developer": "المطور",
+  "developerName": "حسام حسن مجرشي",
+  "email": "البريد الإلكتروني",
+  "website": "الموقع الإلكتروني",
+  "copiedToClipboard": "تم النسخ إلى الحافظة"
+}
+

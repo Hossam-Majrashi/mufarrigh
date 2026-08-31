@@ -1,0 +1,33 @@
+{
+  "app-id": "com.H.mufarrigh",
+  "runtime": "org.freedesktop.Platform",
+  "runtime-version": "24.08",
+  "sdk": "org.freedesktop.Sdk",
+  "command": "mufarrigh",
+  "finish-args": [
+    "--share=ipc",
+    "--socket=fallback-x11",
+    "--socket=wayland",
+    "--socket=x11",
+    "--device=dri",
+    "--filesystem=host",
+    "--filesystem=home",
+    "--filesystem=xdg-pictures",
+    "--filesystem=xdg-documents",
+    "--filesystem=xdg-download"
+  ],
+  "modules": [
+    {
+      "name": "mufarrigh",
+      "buildsystem": "simple",
+      "build-commands": [
+        "mkdir -p /app/bin /app/lib/mufarrigh /app/share/applications /app/share/icons/hicolor/512x512/apps /app/share/metainfo",
+        "cp -r * /app/lib/mufarrigh/",
+        "ln -s /app/lib/mufarrigh/mufarrigh /app/bin/mufarrigh",
+        "install -D -m 644 com.H.mufarrigh.desktop /app/share/applications/com.H.mufarrigh.desktop",
+        "install -D -m 644 com.H.mufarrigh.png /app/share/icons/hicolor/512x512/apps/com.H.mufarrigh.png",
+        "install -D -m 644 com.H.mufarrigh.metainfo.xml /app/share/metainfo/com.H.mufarrigh.metainfo.xml"
+      ]
+    }
+  ]
+}
