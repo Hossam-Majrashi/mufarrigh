@@ -38,17 +38,13 @@
 ### لقطات من التطبيق
 
 #### واجهة التطبيق
-<img width="1920" height="1034" alt="Home Screen - Sprite Sheet Extractor" src="https://github.com/user-attachments/assets/666c4e75-cf7a-47ba-96cb-d42a86466fb7" />
-<img width="1920" height="1034" alt="Home Screen - Recent Projects" src="https://github.com/user-attachments/assets/b710aee1-6590-46f2-88f1-d94348b2df55" />
-<img width="2050" height="1164" alt="Overview Showcase" src="https://github.com/user-attachments/assets/5e11bca3-81a7-43d9-9f24-89d502720045" />
-<img width="1920" height="1034" alt="Main Interface" src="https://github.com/user-attachments/assets/31c0fb2f-f422-49f3-98d7-6238e710d153" />
+<img width="1920" height="1034" alt="واجهة التطبيق" src="https://github.com/user-attachments/assets/eab94b13-e8d6-48a1-a3a2-5d947c08e84f" />
 
 #### داخل التطبيق ومساحة العمل
-<img width="1920" height="1034" alt="Workspace - Sheet and Elements Grid" src="https://github.com/user-attachments/assets/12b6283f-20c8-4e49-b7cd-58d91bb50ed4" />
+<img width="1920" height="1034" alt="داخل التطبيق ومساحة العمل" src="https://github.com/user-attachments/assets/19907c70-c855-4754-bc2a-a7550c6073ce" />
 
 #### المخرجات وعملية التصدير
-<img width="2050" height="1164" alt="Export Output Preview 1" src="https://github.com/user-attachments/assets/76bbb8ce-a165-4154-aae2-e62ca8fda700" />
-<img width="2050" height="1164" alt="Export Output Preview 2" src="https://github.com/user-attachments/assets/4f4e4fbc-2544-423e-932b-29bba053f00a" />
+<img width="2050" height="1164" alt="المخرجات وعملية التصدير" src="https://github.com/user-attachments/assets/686ecc87-410b-4176-9a87-02102bafe117" />
 
 ---
 
@@ -193,17 +189,13 @@ lib/
 ### Screenshots
 
 #### Application Interface
-<img width="1920" height="1034" alt="Home Screen - Sprite Sheet Extractor" src="https://github.com/user-attachments/assets/666c4e75-cf7a-47ba-96cb-d42a86466fb7" />
-<img width="1920" height="1034" alt="Home Screen - Recent Projects" src="https://github.com/user-attachments/assets/b710aee1-6590-46f2-88f1-d94348b2df55" />
-<img width="2050" height="1164" alt="Overview Showcase" src="https://github.com/user-attachments/assets/5e11bca3-81a7-43d9-9f24-89d502720045" />
-<img width="1920" height="1034" alt="Main Interface" src="https://github.com/user-attachments/assets/31c0fb2f-f422-49f3-98d7-6238e710d153" />
+<img width="1920" height="1034" alt="Application Interface" src="https://github.com/user-attachments/assets/eab94b13-e8d6-48a1-a3a2-5d947c08e84f" />
 
 #### Inside the Application & Workspace
-<img width="1920" height="1034" alt="Workspace - Sheet and Elements Grid" src="https://github.com/user-attachments/assets/12b6283f-20c8-4e49-b7cd-58d91bb50ed4" />
+<img width="1920" height="1034" alt="Inside the Application & Workspace" src="https://github.com/user-attachments/assets/19907c70-c855-4754-bc2a-a7550c6073ce" />
 
 #### Extracted Outputs & Export Results
-<img width="2050" height="1164" alt="Export Output Preview 1" src="https://github.com/user-attachments/assets/76bbb8ce-a165-4154-aae2-e62ca8fda700" />
-<img width="2050" height="1164" alt="Export Output Preview 2" src="https://github.com/user-attachments/assets/4f4e4fbc-2544-423e-932b-29bba053f00a" />
+<img width="2050" height="1164" alt="Extracted Outputs & Export Results" src="https://github.com/user-attachments/assets/686ecc87-410b-4176-9a87-02102bafe117" />
 
 ---
 
